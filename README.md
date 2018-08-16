@@ -62,7 +62,7 @@ GTMMotionAnimator *animator = [[GTMMotionAnimator alloc] init];
 
 To learn more, visit the MotionAnimator GitHub page:
 
-https://github.com/material-motion/motion-animator-objc
+https://github.com/liuxc123/GTMotionAnimator
 
 ## Installation
 
@@ -75,9 +75,9 @@ https://github.com/material-motion/motion-animator-objc
 >
 >     gem install cocoapods
 
-Add `MotionInterchange` to your `Podfile`:
+Add `GTMotionInterchange` to your `Podfile`:
 
-    pod 'MotionInterchange'
+    pod 'GTMotionInterchange'
 
 Then run the following command:
 
@@ -97,7 +97,7 @@ Check out a local copy of the repo to access the Catalog application by running
 commands:
 
     git clone https://github.com/material-motion/motion-interchange-objc.git
-    cd motion-interchange-objc
+    cd GTMotionInterchange
     pod install
     open MotionInterchange.xcworkspace
 
