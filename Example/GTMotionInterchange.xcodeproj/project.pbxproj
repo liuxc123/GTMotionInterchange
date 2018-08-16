@@ -40,7 +40,7 @@
 		00FB637ED6E889AA3F8F30B6 /* Pods-GTMotionInterchange_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMotionInterchange_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTMotionInterchange_Tests/Pods-GTMotionInterchange_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05E20A9E5425D2B0E11474CF /* Pods_GTMotionInterchange_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMotionInterchange_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F34B343E474F15D19D53AFB /* Pods-GTMotionInterchange_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMotionInterchange_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTMotionInterchange_Example/Pods-GTMotionInterchange_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		35964CCFD2DBB558A8D4C481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		35964CCFD2DBB558A8D4C481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GTMotionInterchange_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTMotionInterchange_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		64AA418D3D22FE06D314A975 /* Pods-GTMotionInterchange_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMotionInterchange_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTMotionInterchange_Example/Pods-GTMotionInterchange_Example.release.xcconfig"; sourceTree = "<group>"; };
 		659A308A7641E942ADD9B256 /* Pods-GTMotionInterchange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMotionInterchange_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTMotionInterchange_Tests/Pods-GTMotionInterchange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84387C963C063CF0040ECA82 /* GTMotionInterchange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GTMotionInterchange.podspec; path = ../GTMotionInterchange.podspec; sourceTree = "<group>"; };
+		84387C963C063CF0040ECA82 /* GTMotionInterchange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTMotionInterchange.podspec; path = ../GTMotionInterchange.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B973C3A85337A1AD61BBF63D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B973C3A85337A1AD61BBF63D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CBFD0CA79653E89D9EBCF954 /* Pods_GTMotionInterchange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMotionInterchange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8ECE5D5E7645573159AAA4DA /* [CP] Embed Pods Frameworks */,
+				F5D62F4D549D545D74088C64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,7 +349,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTMotionInterchange_Tests/Pods-GTMotionInterchange_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8ECE5D5E7645573159AAA4DA /* [CP] Embed Pods Frameworks */ = {
+		F5D62F4D549D545D74088C64 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

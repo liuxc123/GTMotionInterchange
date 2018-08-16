@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTMotionInterchange (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTMotionInterchange (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GTMotionInterchange:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTMotionInterchange: b436e59ebb744a4540331424734f982f688e55b0
+
+PODFILE CHECKSUM: 8e590aa5836eb39919492347a3423143f83169f3
+
+COCOAPODS: 1.5.0
