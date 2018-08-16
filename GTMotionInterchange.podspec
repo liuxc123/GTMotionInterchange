@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTMotionInterchange'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Motion interchange format.'
   s.homepage         = 'https://github.com/liuxc123/GTMotionInterchange'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
