@@ -99,7 +99,7 @@ commands:
     git clone https://github.com/material-motion/motion-interchange-objc.git
     cd GTMotionInterchange
     pod install
-    open MotionInterchange.xcworkspace
+    open GTMotionInterchange.xcworkspace
 
 ## Guides
 
